@@ -20,7 +20,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd sailboat/wood_red.jpg
+map_Kd wood_red.jpg
 
 newmtl Material.002
 Ns 96.078431
@@ -31,7 +31,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd sailboat/sail.jpg
+map_Kd sail.jpg
 
 newmtl None
 Ns 0
@@ -40,7 +40,7 @@ Kd 0.8 0.8 0.8
 Ks 0.8 0.8 0.8
 d 1
 illum 2
-map_Kd sailboat/windows_and_door.jpg
+map_Kd windows_and_door.jpg
 
 newmtl None_NONE
 Ns 0
@@ -57,7 +57,7 @@ Kd 0.8 0.8 0.8
 Ks 0.8 0.8 0.8
 d 1
 illum 2
-map_Kd sailboat/sail.jpg
+map_Kd sail.jpg
 
 newmtl None_wood_deck.jpg
 Ns 0
@@ -66,7 +66,7 @@ Kd 0.8 0.8 0.8
 Ks 0.8 0.8 0.8
 d 1
 illum 2
-map_Kd sailboat/wood_deck.jpg
+map_Kd wood_deck.jpg
 
 newmtl None_wood_red.jpg
 Ns 0
@@ -75,4 +75,4 @@ Kd 0.8 0.8 0.8
 Ks 0.8 0.8 0.8
 d 1
 illum 2
-map_Kd sailboat/wood_red.jpg
+map_Kd wood_red.jpg
