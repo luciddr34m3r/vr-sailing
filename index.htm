@@ -14,19 +14,19 @@
         <a-assets>
           <a-asset-item id="sailboat-obj" src="boat.obj"></a-asset-item>
           <a-asset-item id="sailboat-mtl" src="boat.mtl"></a-asset-item>
-          <a-asset-item id="planet-obj" src="planet3.obj"></a-asset-item>
-          <a-asset-item id="planet-mtl" src="planet3.mtl"></a-asset-item>
+          <a-asset-item id="lowpoly-moon-obj" src="lowpoly-moon.obj"></a-asset-item>
+          <a-asset-item id="lowpoly-moon-mtl" src="lowpoly-moon.mtl"></a-asset-item>
         </a-assets>
 
 
         <a-ocean width="500" depth="500" density="250" position="0 -3 0" rotation="" scale="" visible="" ocean="" opacity=".8">
         </a-ocean>
-        <a-plane color="#7AD2F7" height="500" width="500" position="0 -5 0" rotation="90 0 0"></a-plane>
+        <a-plane color="#7AD2F7" height="500" width="500" position="0 -5 0" rotation="-90 0 0"></a-plane>
 
-        <a-sky color="black"></a-sky>
+        <a-sky src="milkyway.jpg" rotation="135 0 90"></a-sky>
 
         <a-entity star-system="count: 1000;  starSize: 1;"></a-entity>
-        <a-entity position="17.59 37.411 -17.033" light="type:ambient; intensity: .5;"></a-entity>
+        <a-entity position="17.59 37.411 -17.033" light="type:ambient; intensity: .2;"></a-entity>
 
         <a-obj-model 
           src="#sailboat-obj" 
@@ -50,13 +50,10 @@
 
         </a-obj-model>
 
-        <a-obj-model
-          src="#planet-obj" 
-          mtl="#planet-mtl" 
-          scale="1 1 1" 
-          position="25 40 -20" 
-          rotation="0 0 0">
+<a-obj-model src="#lowpoly-moon-obj" scale="20 20 20" position="56.752 94.857 -135.673" rotation="120 -30 0" material="" id="moon">
         </a-obj-model>
+
+<a-entity position="44.05 -11.083 787.802" light="intensity:0.5;decay:2;castShadow:true;type:point"></a-entity>
 
     </a-scene>
   </body>
